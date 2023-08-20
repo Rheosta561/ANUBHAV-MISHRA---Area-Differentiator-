@@ -1,5 +1,6 @@
 import cv2 as cv
 import numpy as np
+#images folder must be present on the same directory to ensure the smooth working of the code .
 def areadifferentiator(x):
     y=str(x)
     img=cv.imread('images/'+y+'.png')
